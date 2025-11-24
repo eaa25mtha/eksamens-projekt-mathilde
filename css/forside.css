@@ -61,7 +61,7 @@
 
 .green-seaweed {
     position: absolute;
-    top: 31%;
+    top: 20%;
     left: 3%;
     z-index: 4;
     width: 170px;
@@ -69,7 +69,7 @@
 
 .green-seaweed-small {
     position: absolute;
-    top: 46%;
+    top: 45%;
     left: 14%;
     z-index: 4;
     width: 100px;
@@ -78,7 +78,7 @@
 
 .green-seaweed-big {
     position: absolute;
-    top: 27%;
+    top: 16%;
     right: 14%;
     z-index: 4;
     width: 160px;
@@ -105,7 +105,7 @@
 .yellow-seaweed {
     position: absolute;
     z-index: 4;
-    top: 50%;
+    top: 45%;
     left: 30%;
     z-index: 2;
     width: 120px;
