@@ -11,11 +11,11 @@
 }
 
 /* Buttons */
-.videns-akvarie {
+.videns-akvarie-btn {
     position: absolute;
-    width: 250px;
-    height: 250px;
-    bottom: -4%;
+    width: 300px;
+    height: 300px;
+    bottom: 30%;
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -26,23 +26,23 @@
     z-index: 10;
 }
 
-.videns-akvarie {
-    left: 41%;
-    background-image: url("../img/viden-akvarie.png");
+.videns-akvarie-btn {
+    left: 40%;
+    background-image: url("../img/akvarie-btn.png");
 }
 
 
-.button-text-1 {
+/*.button-text-1 {
     position: absolute;
     left: 44%;
     bottom: 10%;
     z-index: 20;
-    color: white;
+    color: white; 
     font-size: 20px;
-    font-family: poppins;
+    font-family: "poppins";
     font-weight: bold;
     text-shadow: 0 2px 4px black;
-}
+}*/
 
 .overskrift {
     position: absolute;
@@ -164,7 +164,7 @@
 .akvariemanden {
     position: absolute;
     top: 45%;
-    left: 43%;
+    left: 61%;
     z-index: 6;
     width: 180px;
 }

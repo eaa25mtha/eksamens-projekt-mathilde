@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const vidensboks = document.getElementById("vidensboks");
 
 
-
 /*-----------------------------
 VIDENSBOKS FUNKTION
 -------------------------------*/
@@ -68,19 +67,25 @@ HENT FISKENE FRA HTML MED DOM
   const klovnfisk = document.querySelector(".klovnfisk");
   const laks = document.querySelector(".laks");
   const stribetFisk = document.querySelector(".stribet-fisk");
+  const blueFisk = document.querySelector(".blue-fisk");
+  const lillaFisk = document.querySelector(".lilla-fisk");
+  const miniKlovnfisk = document.querySelector(".mini-klovnfisk");
 
 
 /*-------------------------
 AUDIO OBJEKTER TIL FISKENE
 ---------------------------*/
   const soundKlovnfisk = new Audio();
-  soundKlovnfisk.src = "sound/klovnfisk.mp3";
+  soundKlovnfisk.src = "audio/klovnfisk.mp3";
 
   const soundLaks = new Audio();
-  soundLaks.src = "sound/bobler.mp3";
+  soundLaks.src = "audio/bobler.mp3";
 
   const soundStribetFisk = new Audio();
-  soundStribetFisk.src = "sound/cykel.mp3";
+  soundStribetFisk.src = "audio/cykel.mp3";
+
+  const soundBlueFisk = new Audio();
+  soundBlueFisk.src = "audio/bobler.mp3";
 
 
 /*--------------------------------
@@ -102,6 +107,12 @@ EVENTLISTENERS PÅ AUDIO OBJEKTERNE
   if (stribetFisk) {
     stribetFisk.addEventListener("click", () => {
       soundStribetFisk.play();
+    });
+  }
+
+  if (blueFisk) {
+    blueFisk.addEventListener("click", () => {
+      soundBlueFisk.play();
     });
   }
 
