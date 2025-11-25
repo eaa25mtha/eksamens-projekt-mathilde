@@ -44,6 +44,7 @@ VIDENSBOKS FUNKTION
 /*------------------
 FOR EACH FUNKTION
 --------------------*/
+  /*
   fiskInfo.forEach((fisk) => {
     //tager fat i alt der har med fiskene at gøre i html'en og loop'er det
     document.querySelectorAll("." + fisk.className).forEach((elem) => {
@@ -58,7 +59,9 @@ FOR EACH FUNKTION
       });
     });
   });
+  */
 
+  
 
  /*---------------------------------
  HENT FISKENE FRA HTML MED DOM
@@ -87,6 +90,13 @@ FOR EACH FUNKTION
   const soundBlueFisk = new Audio();
   soundBlueFisk.src = "audio/bobler.mp3";
 
+  const soundLillaFisk = new Audio();
+  soundLillaFisk.src = "audio/bobler.mp3";
+
+  const soundMiniKlovnfisk = new Audio();
+  soundMiniKlovnfisk.src = "audio/bobler.mp3";
+
+
 
  /*--------------------------------
  EVENTLISTENERS PÅ AUDIO OBJEKTERNE
@@ -98,21 +108,38 @@ FOR EACH FUNKTION
     });
   }
 
+  //laksen
   if (laks) {
     laks.addEventListener("click", () => {
       soundLaks.play();
     });
   }
 
+  //den stribede lilla stribede fisk
   if (stribetFisk) {
     stribetFisk.addEventListener("click", () => {
       soundStribetFisk.play();
     });
   }
 
+  //den blå og gule fisk
   if (blueFisk) {
     blueFisk.addEventListener("click", () => {
       soundBlueFisk.play();
+    });
+  }
+
+  //den lilla fisk
+  if (lillaFisk) {
+    lillaFisk.addEventListener("click", () => {
+      soundLillaFisk.play();
+    });
+  }
+
+  //mini klovnfisken
+  if (miniKlovnfisk) {
+    miniKlovnfisk.addEventListener("click", () => {
+      soundMiniKlovnfisk.play();
     });
   }
 
@@ -128,15 +155,17 @@ FOR EACH FUNKTION
     });
   }
 
+
  /*-------------------
  CYKEL DRAG AND DROP
  ---------------------*/
  const cykel = document.querySelector(".cykel");
-
-
-
-
-
+ 
+ cykel.addEventListener("dragstart", () => {
+    draggedCykel = cykel;
+  });
+  
+ cykel.draggable = true;
 
 
 

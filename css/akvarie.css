@@ -41,28 +41,28 @@ AKVARIE INDHOLD
 .krabbe {
     position: fixed;
     bottom: 1vh;
-    left: 2vh;
-    width: 250px;
+    left: 2vw;
+    width: 280px;
 }
 
 .talebobel {
     position: fixed;
-    bottom: 32vh;
+    bottom: 30vh;
     width: 300px;
-    left: 25vh;
+    left: 2vw;
     z-index: 50;
 }
 
 .cykel {
     position: absolute;
-    bottom: 5vh;
-    left: 52vw;
+    bottom: 7vh;
+    left: 38vw;
 }
 
 .skraldespand {
     position: absolute;
     bottom: 2vh;
-    width: 200px;
+    width: 210px;
     right: 2vw;
 }
 
@@ -74,7 +74,7 @@ ANIMATION AF FISK
 .klovnfisk {
     position: absolute;
     bottom: 40vh;
-    right: 20vh;
+    right: 18vw;
     animation: klovnfisk 16s linear infinite;
     cursor: pointer;
 }
@@ -91,7 +91,7 @@ ANIMATION AF FISK
 .mini-klovnfisk {
     position: absolute;
     bottom: 60vh;
-    right: 22vh;
+    right: 16vw;
     width: 90px;
     animation: klovnfisk 10s linear infinite;
     cursor: pointer;
@@ -99,7 +99,7 @@ ANIMATION AF FISK
 
 @keyframes mini-klovnfisk {
     0% {transform: translateX(0);}
-    48% {transform: translateX(-750px) rotateY(0);}
+    48% {transform: translateX(-650px) rotateY(0);}
     50% {transform: translateX(-650px) rotateY(180deg);}
     98% {transform: translateX(0) rotateY(180deg);}
     100% {transform: translateX(0) translateY(0);}
@@ -145,7 +145,7 @@ ANIMATION AF FISK
 .lilla-fisk {
     position: absolute;
     bottom: 18vh;
-    right: 32vh;
+    right: 20vw;
     width: 100px;
     animation: lilla-fisk 8s linear infinite;
     cursor: pointer;
@@ -163,7 +163,7 @@ ANIMATION AF FISK
 .stribet-fisk {
     position: absolute;
     bottom: 60vh;
-    left: 50vh;
+    left: 24vw;
     animation: stribet-fisk 10s linear infinite;
     cursor: pointer;
 }
@@ -206,9 +206,7 @@ VIDENSBOKS TIL DATAOBJEKTERNE
 /*-----------------
 TILBAGE KNAP
 -------------------*/
-
 .tilbagebtn {
-    /* Min tilbage knap, jeg har placeret nede i venstre hjørne */
     position: fixed;
     top: 16px;
     left: 16px;
@@ -221,7 +219,7 @@ TILBAGE KNAP
 
 .tilbagebtn img {
     display: block;
-    width: 80px;
+    width: 150px;
     height: auto;
 }
 
