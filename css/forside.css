@@ -63,7 +63,15 @@ FORSIDE OVERSKRIFTEN
 /*------------------------------
 ELEMEMENT PLACERING PÅ FORSIDEN
 --------------------------------*/
-.green-seaweed {
+.akvariemanden {
+    position: absolute;
+    top: 45%;
+    left: 61%;
+    z-index: 6;
+    width: 180px;
+}
+
+.green-tang {
     position: absolute;
     top: 20%;
     left: 3%;
@@ -71,7 +79,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     width: 170px;
 }
 
-.green-seaweed-small {
+.green-tang-lille {
     position: absolute;
     top: 45%;
     left: 14%;
@@ -80,7 +88,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
 
 }
 
-.green-seaweed-big {
+.green-tang-stor {
     position: absolute;
     top: 16%;
     right: 14%;
@@ -89,7 +97,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
 
 }
 
-.green-seaweed-big-2 {
+.green-tang-stor-2 {
     position: absolute;
     top: 31%;
     right: 1%;
@@ -98,7 +106,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
 
 }
 
-.purple-seaweed {
+.lilla-tang {
     position: absolute;
     top: 61%;
     left: 35%;
@@ -106,7 +114,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     width: 100px;
 }
 
-.yellow-seaweed {
+.gul-tang {
     position: absolute;
     z-index: 4;
     top: 45%;
@@ -115,7 +123,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     width: 120px;
 }
 
-.yellow-seaweed-big {
+.gul-tang-stor {
     position: absolute;
     top: 47%;
     right: 7%;
@@ -123,23 +131,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     width: 180px;
 }
 
-.stone-big {
-    position: absolute;
-    top: 70%;
-    left: 6%;
-    z-index: 5;
-    width: 170px;
-}
-
-.stone-big-2 {
-    position: absolute;
-    top: 68%;
-    right: 17%;
-    z-index: 5;
-    width: 100px;
-}
-
-.stone-small {
+.sten-lille {
     position: absolute;
     top: 70%;
     left: 32%;
@@ -147,7 +139,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     width: 100px;
 }
 
-.stone-small-2 {
+.sten-lille-2 {
     position: absolute;
     top: 68%;
     right: 23%;
@@ -155,7 +147,23 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     width: 70px;
 }
 
-.stone-big-3 {
+.sten-stor {
+    position: absolute;
+    top: 70%;
+    left: 6%;
+    z-index: 5;
+    width: 170px;
+}
+
+.sten-stor-2 {
+    position: absolute;
+    top: 68%;
+    right: 17%;
+    z-index: 5;
+    width: 100px;
+}
+
+.sten-stor-3 {
     position: absolute;
     top: 76%;
     right: 2%;
@@ -164,7 +172,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
 }
 
 
-.pink-shell {
+.musling {
     position: absolute;
     top: 74%;
     left: 16%;
@@ -173,13 +181,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
 }
 
 
-.akvariemanden {
-    position: absolute;
-    top: 45%;
-    left: 61%;
-    z-index: 6;
-    width: 180px;
-}
+
 
 
 /*-------------
@@ -203,31 +205,31 @@ ANIMATIONER
     100% {transform: translate(0, 0) scaleX(1) rotate(0deg);}
 }
 
-.crab {
+.krabbe {
     position: absolute;
     top: 76%;
     right: 18%;
     z-index: 10;
     width: 70px;
-    animation: crab 5s linear infinite;
+    animation: krabbe 5s linear infinite;
 }
 
-@keyframes crab {
+@keyframes krabbe {
     0% {transform: translateX(0) scaleX(1);}
     50% {transform: translateX(-10px) scaleX(1);}
     100% {transform: translateX(0) scaleX(1);}
 }
 
-.purple-fish {
+.lilla-fisk {
     position: absolute;
     top: 15%;
     right: 10%;
     z-index: 6;
     width: 70px;
-    animation: purple-fish 10s linear infinite;
+    animation: lilla-fisk 10s linear infinite;
 }
 
-@keyframes purple-fish {
+@keyframes lilla-fisk {
     0% {transform: translate(0, 0) scaleX(-1);}
     25% {transform: translate(-400px, 30px) scaleX(-1);}
     50% {transform: translate(-900px, 0) scaleX(-1);}
@@ -236,16 +238,16 @@ ANIMATIONER
     100% {transform: translate(0, 0) scaleX(1);}
 }
 
-.pink-blue-fish {
+.pink-fisk {
     position: absolute;
     top: 35%;
     right: 20%;
     z-index: 3;
     width: 70px;
-    animation: pink-blue-fish 18s linear infinite;
+    animation: pink-fisk 18s linear infinite;
 }
 
-@keyframes pink-blue-fish {
+@keyframes pink-fisk {
     0% {transform: translate(0, 0) scaleX(-1);}
     20% {transform: translate(-200px, -40px) scaleX(-1);}
     40% {transform: translate(-400px, 20px) scaleX(-1);}
@@ -256,16 +258,16 @@ ANIMATIONER
     100% {transform: translate(0, 0) scaleX(1);}
 }
 
-.blue-fish {
+.blue-fisk {
     position: absolute;
     top: 60%;
     left: 25%;
     z-index: 6;
     width: 80px;
-    animation: blue-fish 10s linear infinite;
+    animation: blue-fisk 10s linear infinite;
 }
 
-@keyframes blue-fish {
+@keyframes blue-fisk {
     0% {transform: translate(0, 0) scaleX(1)}
     25% {transform: translate(100px, 20px) scaleX(1)}
     50% {transform: translate(200px, 0) scaleX(1)}

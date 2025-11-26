@@ -40,15 +40,16 @@ ELEMENT PLACERING PÅ SIDEN
 
 .krabbe {
     position: fixed;
-    bottom: 1vh;
-    left: 2vw;
-    width: 280px;
+    top: 30vh;
+    left: -6vw;
+    width: 300px;
     z-index: 2;
+    rotate: 75deg;
 }
 
 .talebobel {
     position: fixed;
-    bottom: 30vh;
+    top: 2vh;
     width: 300px;
     left: 2vw;
     z-index: 3;
@@ -190,8 +191,8 @@ TILBAGE KNAP
 -------------------*/
 .tilbagebtn {
     position: fixed;
-    top: 16px;
-    left: 16px;
+    left: 18px;
+    bottom: 18px;
     border: none;
     background: transparent;
     padding: 8px;
@@ -201,7 +202,7 @@ TILBAGE KNAP
 
 .tilbagebtn img {
     display: block;
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
