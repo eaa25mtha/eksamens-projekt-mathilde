@@ -154,7 +154,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     top: 70%;
     left: 32%;
     z-index: 5;
-    width: 5vw;
+    width: 10vw;
 }
 
 .sten-lille-2 {
@@ -162,7 +162,7 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     top: 68%;
     right: 23%;
     z-index: 5;
-    width: 4vw;
+    width: 6vw;
 }
 
 .sten-stor {
@@ -170,15 +170,15 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     top: 70%;
     left: 6%;
     z-index: 5;
-    width: 10vw;
+    width: 16vw;
 }
 
 .sten-stor-2 {
     position: absolute;
     top: 68%;
-    right: 17%;
+    right: 14%;
     z-index: 5;
-    width: 8vw;
+    width: 12vw;
 }
 
 .sten-stor-3 {
@@ -186,17 +186,16 @@ ELEMEMENT PLACERING PÅ FORSIDEN
     top: 76%;
     right: 2%;
     z-index: 5;
-    width: 12vw;
+    width: 16vw;
 }
 
 .musling {
     position: absolute;
-    top: 74%;
+    top: 76%;
     left: 16%;
     z-index: 5;
     width: 4vw;
 }
-
 
 
 /*-------------
@@ -343,7 +342,7 @@ MEDIA BREAKPOINTS RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
 
 .green-tang {
     position: absolute;
-    top: 32%;
+    top: 34%;
 }
 
 .green-tang-lille {
@@ -363,12 +362,17 @@ MEDIA BREAKPOINTS RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
 
 .gul-tang {
     position: absolute;
-    top: 50%;
+    top: 52%;
 }
 
 .gul-tang-stor {
     position: absolute;
     top: 55%;
+}
+
+.lilla-tang {
+    position: absolute;
+    top: 62%;
 }
 
 .akvariemanden {
