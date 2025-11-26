@@ -1,3 +1,7 @@
+
+/*----------
+BAGGRUND
+-----------*/
 .baggrund {
     position: relative;
     width: 100%;
@@ -7,10 +11,11 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
-
 }
 
-/* Buttons */
+/*------------
+SPIL KNAPPEN
+--------------*/
 .videns-akvarie-btn {
     position: absolute;
     width: 300px;
@@ -31,18 +36,10 @@
     background-image: url("../img/akvarie-btn.png");
 }
 
-/*.button-text-1 {
-    position: absolute;
-    left: 44%;
-    bottom: 10%;
-    z-index: 20;
-    color: white; 
-    font-size: 20px;
-    font-family: "poppins";
-    font-weight: bold;
-    text-shadow: 0 2px 4px black;
-}*/
 
+/*--------------------
+FORSIDE OVERSKRIFTEN
+----------------------*/
 .overskrift {
     position: absolute;
     color: white;
@@ -58,6 +55,9 @@
 }
 
 
+/*------------------------------
+ELEMEMENT PLACERING PÅ FORSIDEN
+--------------------------------*/
 .green-seaweed {
     position: absolute;
     top: 20%;
@@ -150,11 +150,19 @@
     width: 70px;
 }
 
+.stone-big-3 {
+    position: absolute;
+    top: 76%;
+    right: 2%;
+    z-index: 5;
+    width: 200px;
+}
+
 
 .pink-shell {
     position: absolute;
-    top: 68%;
-    right: 32%;
+    top: 74%;
+    left: 16%;
     z-index: 5;
     width: 45px;
 }
@@ -168,32 +176,32 @@
     width: 180px;
 }
 
-.nemo {
+
+/*----------------------------
+ANIMATION AF FISK OG KRABBE
+------------------------------*/
+
+.klovnfisk {
     position: absolute;
     top: 25%;
     left: 20%;
     z-index: 6;
     width: 50px;
-    animation: nemo 10s linear infinite;
+    animation: klovnfisk 10s linear infinite;
 }
 
-@keyframes nemo {
+@keyframes klovnfisk {
     0% {transform: translate(0, 0) scaleX(-1) rotate(0deg);}
-
     25% {transform: translate(-100px, 20px) scaleX(-1) rotate(5deg);}
-
     50% {transform: translate(-200px, 0) scaleX(-1) rotate(360deg);}
-
     51% {transform: translate(-200px, 0) scaleX(1) rotate(0deg);}
-
     75% {transform: translate(-100px, -20px) scaleX(1) rotate(-5deg);}
-
     100% {transform: translate(0, 0) scaleX(1) rotate(0deg);}
 }
 
 .crab {
     position: absolute;
-    top: 63%;
+    top: 76%;
     right: 18%;
     z-index: 10;
     width: 70px;
@@ -202,9 +210,7 @@
 
 @keyframes crab {
     0% {transform: translateX(0) scaleX(1);}
-
     50% {transform: translateX(-10px) scaleX(1);}
-
     100% {transform: translateX(0) scaleX(1);}
 }
 
@@ -219,15 +225,10 @@
 
 @keyframes purple-fish {
     0% {transform: translate(0, 0) scaleX(-1);}
-
     25% {transform: translate(-400px, 30px) scaleX(-1);}
-
     50% {transform: translate(-900px, 0) scaleX(-1);}
-
     51% {transform: translate(-900px, 0) scaleX(1);}
-
     75% {transform: translate(-400px, -30px) scaleX(1);}
-
     100% {transform: translate(0, 0) scaleX(1);}
 }
 
@@ -242,84 +243,65 @@
 
 @keyframes pink-blue-fish {
     0% {transform: translate(0, 0) scaleX(-1);}
-
     20% {transform: translate(-200px, -40px) scaleX(-1);}
-
     40% {transform: translate(-400px, 20px) scaleX(-1);}
-
     50% {transform: translate(-600px, 0) scaleX(-1);}
-
     51% {transform: translate(-600px, 0) scaleX(1);}
-
     60% {transform: translate(-400px, 40px) scaleX(1);}
-
     80% {transform: translate(-200px, -20px) scaleX(1);}
-
     100% {transform: translate(0, 0) scaleX(1);}
 }
 
-.yellow-fish {
+.blue-fish {
     position: absolute;
     top: 60%;
     left: 25%;
     z-index: 6;
     width: 80px;
-    animation: yellow-fish 10s linear infinite;
+    animation: blue-fish 10s linear infinite;
 }
 
-@keyframes yellow-fish {
+@keyframes blue-fish {
     0% {transform: translate(0, 0) scaleX(1)}
-
     25% {transform: translate(100px, 20px) scaleX(1)}
-
     50% {transform: translate(200px, 0) scaleX(1)}
-
     51% {transform: translate(200px, 0) scaleX(-1)}
-
     75% {transform: translate(100px, -20px) scaleX(-1)}
-
     100% {transform: translate(0, 0) scaleX(-1)}
 }
 
-.brown-fish {
+.laks {
     position: absolute;
     top: 55%;
     right: 20%;
     z-index: 3;
     width: 70px;
-    animation: brown-fish 18s linear infinite;
+    animation: laks 18s linear infinite;
 }
 
-@keyframes brown-fish {
+@keyframes laks {
     0% {transform: translate(0, 0) scaleX(-1);}
-
     20% {transform: translate(100px, -40px) scaleX(-1);}
-
     40% {transform: translate(200px, 20px) scaleX(-1);}
-
     50% {transform: translate(300px, 0) scaleX(-1);}
-
     51% {transform: translate(300px, 0) scaleX(1);}
-
     60% {transform: translate(200px, 40px) scaleX(1);}
-
     80% {transform: translate(100px, -20px) scaleX(1);}
-
     100% {transform: translate(0, 0) scaleX(1);}
 }
 
 .bobbel {
     position: absolute;
-    top: 58%;
-    right: 32%;
+    top: 66%;
+    right: 18%;
     z-index: 5;
     width: 45px;
 }
 
 .bobbel-2 {
     position: absolute;
-    top: 53%;
-    right: 20%;
+    top: 62%;
+    left: 14%;
     z-index: 10;
     width: 50px;
 }

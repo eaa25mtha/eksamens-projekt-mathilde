@@ -1,0 +1,24 @@
+/*----------------------------
+VIDENSBOKS TIL DATAOBJEKTERNE
+-----------------------------*/
+.vidensboks {
+    position: absolute;
+    right: 35vh;
+    bottom: 75vh;
+    background-color: rgb(211, 241, 253);
+    color: darkblue;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-family: 'poppins';
+    line-height: 1.5;
+    opacity: 0;
+    transition: opacity 0.25s ease, transform 0.2s ease;
+    pointer-events: none;
+    z-index: 20;
+}
+
+.vidensboks.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
