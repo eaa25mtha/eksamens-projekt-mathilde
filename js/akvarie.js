@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
  /*---------------------------------
  HENT FISKENE FRA HTML MED DOM
  -----------------------------------*/
-  //henter alle fiskene der skal bruges fra html ved at kalde en const variabel
   const klovnfisk = document.querySelector(".klovnfisk");
   const laks = document.querySelector(".laks");
   const pinkFisk = document.querySelector(".pink-fisk");
@@ -42,42 +41,41 @@ document.addEventListener("DOMContentLoaded", () => {
  /*--------------------------------
  EVENTLISTENERS PÅ AUDIO OBJEKTERNE
  ----------------------------------*/
-  //klovnfisken
   if (klovnfisk) {
     klovnfisk.addEventListener("click", () => {
       soundKlovnfisk.play();
     });
   }
 
-  //laksen
+
   if (laks) {
     laks.addEventListener("click", () => {
       soundLaks.play();
     });
   }
 
-  //den pink fisk
+
   if (pinkFisk) {
     pinkFisk.addEventListener("click", () => {
       soundPinkFisk.play();
     });
   }
 
-  //den blå fisk
+
   if (blueFisk) {
     blueFisk.addEventListener("click", () => {
       soundBlueFisk.play();
     });
   }
 
-  //den lilla fisk
+
   if (lillaFisk) {
     lillaFisk.addEventListener("click", () => {
       soundLillaFisk.play();
     });
   }
 
-  //mini klovnfisken
+ 
   if (miniKlovnfisk) {
     miniKlovnfisk.addEventListener("click", () => {
       soundMiniKlovnfisk.play();
