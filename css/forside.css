@@ -116,15 +116,23 @@ ELEMEMENTER
     transform: scaleX(-1);
 }
 
-.lilla-tang {
+.lilla-tang-1 {
     position: absolute;
-    bottom: 24%;
-    left: 30%;
-    z-index: 3;
-    width: 8vw;
+    bottom: 20%;
+    right: 2%;
+    z-index: 5;
+    width: 6vw;
 }
 
-.gul-tang {
+.lilla-tang-2 {
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    z-index: 6;
+    width: 10vw;
+}
+
+.gul-tang-1 {
     position: absolute;
     z-index: 4;
     bottom: 20%;
@@ -133,12 +141,12 @@ ELEMEMENTER
     width: 10vw;
 }
 
-.gul-tang-stor {
+.gul-tang-2 {
     position: absolute;
     bottom: 20%;
-    right: 6%;
-    z-index: 5;
-    width: 12vw;
+    right: 10%;
+    z-index: 6;
+    width: 8vw;
 }
 
 .sten-1 {
@@ -153,7 +161,7 @@ ELEMEMENTER
     position: absolute;
     bottom: 5%;
     left: 20%;
-    z-index: 5;
+    z-index: 6;
     width: 10vw;
 }
 
@@ -177,14 +185,14 @@ ELEMEMENTER
     position: absolute;
     top: 76%;
     right: 2%;
-    z-index: 5;
+    z-index: 7;
     width: 16vw;
 }
 
 .pink-musling {
     position: absolute;
-    top: 76%;
-    left: 16%;
+    bottom: 14%;
+    left: 6%;
     width: 4vw;
     z-index: 5;
 }
@@ -194,16 +202,16 @@ ELEMEMENTER
     bottom: 10%;
     right: 5%;
     width: 5vw;
-    z-index: 5;
+    z-index: 8;
     transform: rotate(45deg);
 }
 
 .gul-musling {
     position: absolute;
-    bottom: 15%;
-    left: 28%;
+    bottom: 4%;
+    left: 26%;
     width: 5vw;
-    z-index: 5;
+    z-index: 7;
 }
 
 
@@ -285,7 +293,7 @@ ANIMATIONER
     position: absolute;
     top: 60%;
     left: 10%;
-    z-index: 6;
+    z-index: 4;
     width: 10vw;
     animation: blue-fisk 12s linear infinite;
 }
@@ -303,7 +311,7 @@ ANIMATIONER
     position: absolute;
     top: 55%;
     right: 20%;
-    z-index: 3;
+    z-index: 5;
     width: 8vw;
     animation: laks 18s linear infinite;
 }
@@ -329,8 +337,8 @@ ANIMATIONER
 
 .bobbel-2 {
     position: absolute;
-    bottom: 26%;
-    left: 14%;
+    bottom: 20%;
+    left: 4%;
     z-index: 10;
     width: 5vw;
 }
