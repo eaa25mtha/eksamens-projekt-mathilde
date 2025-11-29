@@ -15,26 +15,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 
 /*-------------------
-BAGGRUND OG AKVARIE
+ELEMENTER
 --------------------*/
 .baggrund {
     background: linear-gradient(var(--color-bg-top), var(--color-bg-mid), var(--color-bg-bot));
     z-index: 0;
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
 .akvarie {
-    width: 70vw;
+    width: 80vw;
     max-width: 100%;
     height: auto;
     position: absolute;
     top: 3%;
-    left: 18%;
+    left: 14%;
     z-index: 1;
+}
+
+.green-tang-2 {
+    position: absolute;
+    left: 45%;
+    bottom: 2%;
+    width: 18vw;
+    z-index: 2
+}
+
+.sten-1 {
+    position: absolute;
+    left: 50%;
+    bottom: 0.5%;
+    width: 12vw;
+    z-index: 3;
 }
 
 
@@ -61,7 +78,7 @@ ANIMATIONER
 
 .mini-klovnfisk {
     position: absolute;
-    bottom: 14%;
+    top: 12%;
     right: 18%;
     width: 6vw;
     animation: klovnfisk 14s linear infinite;

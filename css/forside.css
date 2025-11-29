@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 
@@ -220,17 +221,17 @@ ANIMATIONER
 ---------------*/
 .klovnfisk {
     position: absolute;
-    top: 25%;
-    left: 20%;
+    top: 10%;
+    left: 25%;
     z-index: 6;
     width: 8vw;
-    animation: klovnfisk 10s linear infinite;
+    animation: klovnfisk 14s linear infinite;
 }
 
 @keyframes klovnfisk {
     0% {transform: translate(0, 0) scaleX(-1) rotate(0deg);}
     25% {transform: translate(-100px, 20px) scaleX(-1) rotate(5deg);}
-    50% {transform: translate(-200px, 0) scaleX(-1) rotate(360deg);}
+    50% {transform: translate(-200px, 0) scaleX(-1);}
     51% {transform: translate(-200px, 0) scaleX(1) rotate(0deg);}
     75% {transform: translate(-100px, -20px) scaleX(1) rotate(-5deg);}
     100% {transform: translate(0, 0) scaleX(1) rotate(0deg);}
@@ -253,11 +254,11 @@ ANIMATIONER
 
 .lilla-fisk {
     position: absolute;
-    top: 15%;
-    right: 10%;
+    top: 10%;
+    right: 5%;
     z-index: 6;
     width: 10vw;
-    animation: lilla-fisk 12s linear infinite;
+    animation: lilla-fisk 18s linear infinite;
 }
 
 @keyframes lilla-fisk {
@@ -275,7 +276,7 @@ ANIMATIONER
     right: 35%;
     z-index: 3;
     width: 6vw;
-    animation: pink-fisk 18s linear infinite;
+    animation: pink-fisk 20s linear infinite;
 }
 
 @keyframes pink-fisk {
@@ -327,20 +328,12 @@ ANIMATIONER
     100% {transform: translate(0, 0) scaleX(1);}
 }
 
-.bobbel {
+.bobler {
     position: absolute;
-    bottom: 24%;
-    right: 18%;
-    z-index: 5;
-    width: 5vw;
-}
-
-.bobbel-2 {
-    position: absolute;
-    bottom: 20%;
+    bottom: 22%;
     left: 4%;
     z-index: 10;
-    width: 5vw;
+    width: 4vw;
 }
 
 
