@@ -84,13 +84,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
  /*--------------------
- TILBAGE KNAP EVENT
+ TILBAGE PIL OG SKATTEKISTE
  ---------------------*/   
-  const tilbageBtn = document.querySelector(".tilbagebtn");
+  const pilBtn = document.querySelector(".pil-btn");
+  const skattekisteBtn = document.querySelector(".skattekiste-btn");
 
-  if(tilbageBtn) {
-    tilbageBtn.addEventListener("click", () => {
+  //tilbage funktion med både pilen og skattekisten kombineret
+  if(pilBtn && skattekisteBtn) {
+    pilBtn.addEventListener("click", () => {
         window.location.href = "index.html"
+    });
+
+    skattekisteBtn.addEventListener("click", () => {
+      window.location.href = "index.html"
     });
   }
 

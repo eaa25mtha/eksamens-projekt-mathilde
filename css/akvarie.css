@@ -19,6 +19,40 @@
 }
 
 
+/*------------------------------
+TILBAGE PIL OG SKATTEKISTE KNAP
+--------------------------------*/
+.pil-btn {
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    top: 22%;
+    left: 8%;
+    background-image: url("../img/pil.svg");
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+}
+
+.skattekiste-btn {
+    position: absolute;
+    width: 12vw;
+    height: 16vh;
+    bottom: 8%;
+    left: 35%;
+    background-image: url("../img/skattekiste.svg");
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+}
+
+
 /*-------------------
 ELEMENTER
 --------------------*/
@@ -154,15 +188,6 @@ ELEMENTER
     z-index: 2;
 }
 
-.skattekiste {
-    position: absolute;
-    left: 35%;
-    bottom: 8%;
-    width: 12vw;
-    z-index: 5;
-}
-
-
 
 /*-----------
 ANIMATIONER
@@ -279,26 +304,6 @@ ANIMATIONER
     100% {transform: translateX(0) rotateY(0);}
 }
 
-
-/*-----------------
-TILBAGE KNAP
--------------------*/
-.tilbagebtn {
-    position: fixed;
-    top: 20%;
-    left: 6.5%;
-    border: none;
-    background: transparent;
-    padding: 8px;
-    cursor: pointer;
-    z-index: 20;
-}
-
-.tilbagebtn img {
-    display: block;
-    width: 10vw;
-    height: auto;
-}
 
 
 /*------------------------------------

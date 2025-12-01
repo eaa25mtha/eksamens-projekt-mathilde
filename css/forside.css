@@ -38,13 +38,15 @@ BAGGRUND
 
 
 /*------------
-SPIL KNAPPEN
+SKATTEKISTE KNAPPEN
 --------------*/
-.videns-akvarie-btn {
+.skattekiste-btn {
     position: absolute;
     width: 30vw;
     height: 35vh;
-    bottom: 30%;
+    bottom: 16%;
+    left: 50%;
+    background-image: url("../img/skattekiste.svg");
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -52,14 +54,6 @@ SPIL KNAPPEN
     background-size: contain;
     z-index: 10;
 }
-
-.videns-akvarie-btn {
-    left: 50%;
-    background-image: url("../img/skattekiste.svg");
-    width: 25%;
-    bottom: 16%;
-}
-
 
 
 /*------------------------------

@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
  //AKVARIE KNAP - FØRER TIL SPILLET
-  const vidensButton = document.querySelector(".videns-akvarie-btn");
+  const skattekisteBtn = document.querySelector(".skattekiste-btn");
 
-  vidensButton.addEventListener("click", () => {
+  skattekisteBtn.addEventListener("click", () => {
     window.location.href = "akvarie.html";
   });
 
@@ -18,13 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
  const akvariemanden = document.querySelector(".akvariemanden");
 
 
-
  /*---------------
  AUDIO OBJEKTER
  ----------------*/
  const soundAkvariemanden = new Audio();
  soundAkvariemanden.src = "audio/akvariemanden.mp3";
-
 
 
  /*---------------
