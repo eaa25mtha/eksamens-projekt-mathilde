@@ -19,6 +19,7 @@
 }
 
 
+
 /*------------------------------
 TILBAGE PIL OG SKATTEKISTE KNAP
 --------------------------------*/
@@ -203,12 +204,15 @@ ANIMATIONER
 }
 
 @keyframes klovnfisk {
-    0% {transform: translateX(0);}                           /* fiskens startpunkt*/
-    48% {transform: translateX(-70vw) rotateY(0);}          /* fisken svømmer til venstre*/
-    50% {transform: translateX(-70vw) rotateY(180deg);}     /* fisken laver en hurtig vendning*/
-    98% {transform: translateX(0) rotateY(180deg);}          /* fisken svømmer mod højre*/
-    100% {transform: translateX(0) translateY(0);}           /* den laver en hurtig vending og starter loopen forfra*/
+    0% {transform: translate(0, 0) scaleX(1);}                /* fisken er på startposition (0,0) og vender mod højre scaleX(1) */
+    25% {transform: translate(-30vw, 4vh) scaleX(1);}         /* fisken svømmer mod venstre og lidt ned (-30vw, 4vh), fisken vender stadig mod højre */
+    50% {transform: translate(-70vw, 0) scaleX(1);}           /* fisken er svømmet 70vw af skærmen mod venstre, tilbage i samme højde igen og vender mod højre */
+    51% {transform: translate(-70vw, 0) scaleX(-1);}          /* samme position og højde som ved 50%, spejlvendt så den nu vender mod venstre */
+    75% {transform: translate(-30vw, 4vh) scaleX(-1);}        /* fisken svømmer tilbage mod højre, vendt mod venstre */
+    100% {transform: translate(0, 0) scaleX(-1);}             /* tilbage til start punktet, looper så fisken vender sig igen og starter forfra */
 }
+
+
 
 .mini-klovnfisk {
     position: absolute;
@@ -231,9 +235,9 @@ ANIMATIONER
 
 .laks {
     position: absolute;
-    bottom: 55%;
+    bottom: 50%;
     left: 10%;
-    width: 14vw;
+    width: 12vw;
     animation: laks 22s linear infinite;
     cursor: pointer;
     z-index: 7;
