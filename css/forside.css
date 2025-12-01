@@ -32,8 +32,8 @@ BAGGRUND
 .sand {
     position: absolute;
     width: 100vw;
-    top: 70%;
-    bottom: 0%;
+    top: 70vh;
+    bottom: 0vh;
 }
 
 
@@ -44,8 +44,8 @@ SKATTEKISTE KNAPPEN
     position: absolute;
     width: 30vw;
     height: 35vh;
-    bottom: 16%;
-    left: 50%;
+    bottom: 16vh;
+    left: 50vw;
     background-image: url("../img/skattekiste.svg");
     border: none;
     cursor: pointer;
@@ -61,8 +61,8 @@ ELEMEMENTER
 --------------------------------*/
 .akvariemanden {
     position: absolute;
-    bottom: 12%;
-    left: 35%;
+    bottom: 12vh;
+    left: 35vw;
     z-index: 6;
     width: 14vw;
     cursor: pointer;
@@ -70,24 +70,24 @@ ELEMEMENTER
 
 .talebobbel {
     position: absolute;
-    bottom: 50%;
+    bottom: 50vh;
     width: 20vw;
-    left: 35%;
+    left: 35vw;
     z-index: 50;
 }
 
 .green-tang-1 {
     position: absolute;
-    bottom: 20%;
-    left: 3%;
+    bottom: 20vh;
+    left: 3vw;
     z-index: 4;
     width: 12vw;
 }
 
 .green-tang-2 {
     position: absolute;
-    bottom: 22%;
-    left: 14%;
+    bottom: 22vh;
+    left: 14vw;
     z-index: 4;
     width: 8vw;
 
@@ -95,8 +95,8 @@ ELEMEMENTER
 
 .green-tang-3 {
     position: absolute;
-    bottom: 28%;
-    right: 14%;
+    bottom: 28vh;
+    right: 14vw;
     z-index: 4;
     width: 11vw;
     transform: scaleX(-1);
@@ -105,8 +105,8 @@ ELEMEMENTER
 
 .green-tang-4 {
     position: absolute;
-    bottom: 20%;
-    right: 1%;
+    bottom: 20vh;
+    right: 1vw;
     z-index: 5;
     width: 12vw;
     transform: scaleX(-1);
@@ -114,16 +114,16 @@ ELEMEMENTER
 
 .lilla-tang-1 {
     position: absolute;
-    bottom: 20%;
-    right: 2%;
+    bottom: 20vh;
+    right: 2vw;
     z-index: 5;
     width: 6vw;
 }
 
 .lilla-tang-2 {
     position: absolute;
-    bottom: 10%;
-    left: 20%;
+    bottom: 10vh;
+    left: 20vw;
     z-index: 6;
     width: 10vw;
 }
@@ -131,72 +131,72 @@ ELEMEMENTER
 .gul-tang-1 {
     position: absolute;
     z-index: 4;
-    bottom: 20%;
-    left: 25%;
+    bottom: 20vh;
+    left: 25vw;
     z-index: 2;
     width: 10vw;
 }
 
 .gul-tang-2 {
     position: absolute;
-    bottom: 20%;
-    right: 10%;
+    bottom: 20vh;
+    right: 10vw;
     z-index: 6;
     width: 8vw;
 }
 
 .sten-1 {
     position: absolute;
-    bottom: 18%;
-    left: 28%;
+    bottom: 18vh;
+    left: 28vw;
     z-index: 5;
     width: 10vw;
 }
 
 .sten-2 {
     position: absolute;
-    bottom: 5%;
-    left: 20%;
+    bottom: 5vh;
+    left: 20vw;
     z-index: 6;
     width: 10vw;
 }
 
 .sten-3 {
     position: absolute;
-    top: 70%;
-    left: 4%;
+    bottom: 18vh;
+    left: 4vw;
     z-index: 5;
     width: 16vw;
 }
 
 .sten-4 {
     position: absolute;
-    top: 68%;
-    right: 14%;
+    bottom: 20vh;
+    right: 14vw;
     z-index: 5;
     width: 12vw;
 }
 
 .sten-5 {
     position: absolute;
-    top: 76%;
-    right: 2%;
+    bottom: 14vh;
+    right: 2vw;
     z-index: 7;
     width: 16vw;
 }
 
 .pink-musling {
     position: absolute;
-    bottom: 14%;
-    left: 6%;
+    bottom: 14vh;
+    left: 6vw;
     width: 4vw;
     z-index: 5;
 }
 
 .green-musling {
     position: absolute;
-    bottom: 10%;
-    right: 5%;
+    bottom: 10vh;
+    right: 5vw;
     width: 5vw;
     z-index: 8;
     transform: rotate(45deg);
@@ -204,8 +204,8 @@ ELEMEMENTER
 
 .gul-musling {
     position: absolute;
-    bottom: 4%;
-    left: 26%;
+    bottom: 4vh;
+    left: 26vw;
     width: 5vw;
     z-index: 7;
 }
@@ -216,8 +216,8 @@ ANIMATIONER
 ---------------*/
 .klovnfisk {
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 10vh;
+    left: 10vw;
     z-index: 6;
     width: 8vw;
     animation: klovnfisk 20s linear infinite;
@@ -235,8 +235,8 @@ ANIMATIONER
 
 .krabbe {
     position: absolute;
-    top: 76%;
-    right: 18%;
+    bottom: 10vh;
+    right: 18vw;
     z-index: 10;
     width: 8vw;
     animation: krabbe 5s linear infinite;
@@ -251,8 +251,8 @@ ANIMATIONER
 
 .lilla-fisk {
     position: absolute;
-    top: 20%;
-    right: 5%;
+    top: 20vh;
+    right: 5vw;
     z-index: 6;
     width: 10vw;
     animation: lilla-fisk 18s linear infinite;
@@ -269,8 +269,8 @@ ANIMATIONER
 
 .pink-fisk {
     position: absolute;
-    bottom: 50%;
-    left: 5%;
+    bottom: 50vh;
+    left: 5vw;
     z-index: 3;
     width: 6vw;
     animation: pink-fisk 18s linear infinite;
@@ -287,8 +287,8 @@ ANIMATIONER
 
 .green-fisk {
     position: absolute;
-    top: 60%;
-    left: 10%;
+    bottom: 20vh;
+    left: 10vw;
     z-index: 4;
     width: 10vw;
     animation: green-fisk 12s linear infinite;
@@ -305,8 +305,8 @@ ANIMATIONER
 
 .laks {
     position: absolute;
-    top: 55%;
-    right: 20%;
+    bottom: 25vh;
+    right: 20vw;
     z-index: 5;
     width: 8vw;
     animation: laks 14s linear infinite;
@@ -323,8 +323,8 @@ ANIMATIONER
 
 .bobler {
     position: absolute;
-    bottom: 22%;
-    left: 4%;
+    bottom: 22vh;
+    left: 4vw;
     z-index: 10;
     width: 4vw;
 }
@@ -333,54 +333,5 @@ ANIMATIONER
 /*-----------------------------------------------------------------
 MEDIA BREAKPOINTS RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
 ------------------------------------------------------------------*/
-/*@media (max-width: 1366px) {
 
-.videns-akvarie-btn {
-    left: 34vw;
-}
 
-.overskrift {
-    top: 20%;
-}
-
-.green-tang {
-    position: absolute;
-    top: 32%;
-}
-
-.green-tang-lille {
-    position: absolute;
-    top: 52%;
-}
-
-.green-tang-stor {
-    position: absolute;
-    top: 28%;
-}
-
-.green-tang-stor-2 {
-    position: absolute;
-    top: 42%;
-}
-
-.gul-tang {
-    position: absolute;
-    top: 52%;
-}
-
-.gul-tang-stor {
-    position: absolute;
-    top: 55%;
-}
-
-.lilla-tang {
-    position: absolute;
-    top: 62%;
-}
-
-.akvariemanden {
-    position: absolute;
-    left: 66%;
-    top: 50%;
-}
-}*/

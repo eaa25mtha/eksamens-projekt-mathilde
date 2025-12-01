@@ -27,8 +27,8 @@ TILBAGE PIL OG SKATTEKISTE KNAP
     position: absolute;
     width: 10vw;
     height: 10vh;
-    top: 22%;
-    left: 8%;
+    top: 22vh;
+    left: 8vw;
     background-image: url("../img/pil.svg");
     border: none;
     cursor: pointer;
@@ -42,8 +42,8 @@ TILBAGE PIL OG SKATTEKISTE KNAP
     position: absolute;
     width: 12vw;
     height: 16vh;
-    bottom: 8%;
-    left: 35%;
+    bottom: 8vh;
+    left: 35vw;
     background-image: url("../img/skattekiste.svg");
     border: none;
     cursor: pointer;
@@ -65,17 +65,17 @@ ELEMENTER
 
 .akvarie {
     width: 90vw;
-    max-width: 100%;
+    max-width: 100vw;
     position: absolute;
-    top: 1.5%;
-    left: 5%;
+    top: 1.5vh;
+    left: 5vw;
     z-index: 1;
 }
 
 .sten-1 {
     position: absolute;
-    left: 48%;
-    bottom: 8%;
+    left: 48vw;
+    bottom: 8vh;
     width: 12vw;
     z-index: 6;
     transform: rotate(-2deg);
@@ -83,24 +83,24 @@ ELEMENTER
 
 .sten-2 {
     position: absolute;
-    right: 10%;
-    bottom: 8%;
+    right: 10vw;
+    bottom: 8vh;
     width: 12vw;
     z-index: 3;
 }
 
 .sten-3 {
     position: absolute;
-    right: 26%;
-    bottom: 8%;
+    right: 26vw;
+    bottom: 8vh;
     width: 8vw;
     z-index: 6;
 }
 
 .sten-4 {
     position: absolute;
-    left: 20%;
-    bottom: 7.5%;
+    left: 20vw;
+    bottom: 7.5vh;
     width: 10vw;
     z-index: 3;
     transform: rotate(-1deg);
@@ -108,8 +108,8 @@ ELEMENTER
 
 .sten-5 {
     position: absolute;
-    left: 8%;
-    bottom: 7.5%;
+    left: 8vw;
+    bottom: 7.5vh;
     width: 8vw;
     z-index: 3;
     transform: rotate(-1deg);
@@ -118,32 +118,32 @@ ELEMENTER
 
 .pink-musling {
     position: absolute;
-    right: 20%;
-    bottom: 8%;
+    right: 20vw;
+    bottom: 8vh;
     width: 3vw;
     z-index: 4;
 }
 
 .green-musling {
     position: absolute;
-    left: 29%;
-    bottom: 8%;
+    left: 29vw;
+    bottom: 8vh;
     width: 4vw;
     z-index: 2;
 }
 
 .gul-musling {
     position: absolute;
-    left: 15%;
-    bottom: 8%;
+    left: 15vw;
+    bottom: 8vh;
     width: 4vw;
     z-index: 6;
 }
 
 .krabbe {
     position: absolute;
-    right: 42%;
-    bottom: 16%;
+    right: 42vw;
+    bottom: 16vh;
     width: 5vw;
     z-index: 6;
     transform: rotate(10deg);
@@ -151,40 +151,40 @@ ELEMENTER
 
 .akvarie-tang-1 {
     position: absolute;
-    right: 40%;
-    bottom: 8%;
+    right: 40vw;
+    bottom: 8vh;
     width: 22vw;
     z-index: 5;
 }
 
 .akvarie-tang-2 {
     position: absolute;
-    left: 8%;
-    bottom: 8%;
+    left: 8vw;
+    bottom: 8vh;
     width: 12vw;
     z-index: 2;
 }
 
 .akvarie-tang-3 {
     position: absolute;
-    right: 10%;
-    bottom: 8%;
+    right: 10vw;
+    bottom: 8vh;
     width: 10vw;
     z-index: 2;
 }
 
 .akvarie-tang-4 {
     position: absolute;
-    right: 28%;
-    bottom: 8%;
+    right: 28vw;
+    bottom: 8vh;
     width: 8vw;
     z-index: 4;
 }
 
 .akvarie-tang-5 {
     position: absolute;
-    left: 22%;
-    bottom: 8%;
+    left: 22vw;
+    bottom: 8vh;
     width: 8vw;
     z-index: 2;
 }
@@ -195,8 +195,8 @@ ANIMATIONER
 -------------*/
 .klovnfisk {
     position: absolute;
-    bottom: 38%;
-    right: 10%;
+    bottom: 38vh;
+    right: 10vw;
     width: 12vw;
     animation: klovnfisk 25s linear infinite;
     cursor: pointer;
@@ -213,30 +213,10 @@ ANIMATIONER
 }
 
 
-
-.mini-klovnfisk {
-    position: absolute;
-    top: 25%;
-    right: 10%;
-    width: 6vw;
-    animation: mini-klovnfisk 24s linear infinite;
-    cursor: pointer;
-    z-index: 6;
-}
-
-@keyframes mini-klovnfisk {
-    0% {transform: translateX(0);}
-    48% {transform: translateX(-70vw) rotateY(0);}
-    50% {transform: translateX(-70vw) rotateY(180deg);}
-    98% {transform: translateX(0) rotateY(180deg);}
-    100% {transform: translateX(0) translateY(0);}
-}
-
-
 .laks {
     position: absolute;
-    bottom: 50%;
-    left: 10%;
+    top: 24vh;
+    left: 10vw;
     width: 12vw;
     animation: laks 22s linear infinite;
     cursor: pointer;
@@ -244,18 +224,19 @@ ANIMATIONER
 }
 
 @keyframes laks {
-    0% {transform: translateX(0);}
-    49% {transform: translateX(70vw) rotateY(0);}
-    50% {transform: translateX(70vw) rotateY(180deg);}
-    98% {transform: translateX(0) rotateY(180deg);}
-    100% {transform: translateX(0) translateY(0);}
+    0% {transform: translate(0,0) scaleX(1);}
+    25% {transform: translate(30vw, 6vh) scaleX(1);}
+    50% {transform: translate(70vw, 0) scaleX(1);}
+    51% {transform: translate(70vw, 0) scaleX(-1)}
+    75% {transform: translate(30vw, 6vh) scaleX(-1);}
+    100% {transform: translate(0, 0) scaleX(-1);}
 }
 
 
 .green-fisk {
     position: absolute;
-    bottom: 12%;
-    left: 10%;
+    bottom: 12vh;
+    left: 10vw;
     width: 10vw;
     animation: green-fisk 25s linear infinite;
     cursor: pointer;
@@ -273,8 +254,8 @@ ANIMATIONER
 
 .pink-fisk {
     position: absolute;
-    bottom: 20%;
-    right: 10%;
+    bottom: 22vh;
+    right: 10vw;
     width: 10vw;
     animation: pink-fisk 16s linear infinite;
     cursor: pointer;
@@ -292,10 +273,10 @@ ANIMATIONER
 
 .lilla-fisk {
     position: absolute;
-    bottom: 50%;
-    left: 10%;
-    width: 10vw;
-    animation: lilla-fisk 20s linear infinite;
+    bottom: 50vh;
+    left: 10vw;
+    width: 8vw;
+    animation: lilla-fisk 30s linear infinite;
     cursor: pointer;
     z-index: 10;
 }
@@ -313,17 +294,3 @@ ANIMATIONER
 /*------------------------------------
 MEDIA BREAKPOINTS RESPONSIVE DESIGN
 -------------------------------------*/
-/*
-@media (max-width: 1366px) {
-    .akvarie {
-        position: absolute;
-        width: 80vw;
-        top: 15%;
-        left: 14%;
-    }
-
-    .laks {
-        position: absolute;
-        bottom: 65%;
-    }
-}*/
