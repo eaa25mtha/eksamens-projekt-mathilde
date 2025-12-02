@@ -10,9 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const klovnfisk = document.querySelector(".klovnfisk");
   const laks = document.querySelector(".laks");
   const pinkFisk = document.querySelector(".pink-fisk");
-  const blueFisk = document.querySelector(".blue-fisk");
+  const greenFisk = document.querySelector(".green-fisk");
   const lillaFisk = document.querySelector(".lilla-fisk");
-  const miniKlovnfisk = document.querySelector(".mini-klovnfisk");
 
 
  /*-------------------------
@@ -27,14 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const soundPinkFisk = new Audio();
   soundPinkFisk.src = "audio/bobler.mp3";
 
-  const soundBlueFisk = new Audio();
-  soundBlueFisk.src = "audio/bobler.mp3";
+  const soundGreenFisk = new Audio();
+  soundGreenFisk.src = "audio/burp.mp3";
 
   const soundLillaFisk = new Audio();
   soundLillaFisk.src = "audio/bobler.mp3";
 
-  const soundMiniKlovnfisk = new Audio();
-  soundMiniKlovnfisk.src = "audio/bobler.mp3";
 
 
 
@@ -62,9 +59,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  if (blueFisk) {
-    blueFisk.addEventListener("click", () => {
-      soundBlueFisk.play();
+  if (greenFisk) {
+    greenFisk.addEventListener("click", () => {
+      soundGreenFisk.play();
     });
   }
 
@@ -72,13 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (lillaFisk) {
     lillaFisk.addEventListener("click", () => {
       soundLillaFisk.play();
-    });
-  }
-
- 
-  if (miniKlovnfisk) {
-    miniKlovnfisk.addEventListener("click", () => {
-      soundMiniKlovnfisk.play();
     });
   }
 
@@ -118,18 +108,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-
-
-  /*-------------------
-  MUSLINGE ANIMATION
-  ---------------------*/
-  const greenMusling = document.querySelector(".green-musling");
-
-  if(greenMusling) {
-    greenMusling.addEventListener("click", () => {
-      greenMusling.classList.toggle("anim-green-musling")
-    });
-  }
 
 
 

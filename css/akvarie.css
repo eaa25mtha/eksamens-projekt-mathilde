@@ -131,6 +131,14 @@ MUSLINGER
     z-index: 6;
 }
 
+.green-musling {
+    position: absolute;
+    left: 29vw;
+    bottom: 8vh;
+    width: 4vw;
+    z-index: 2;
+}
+
 /*-----
 TANG
 ------*/
@@ -198,22 +206,6 @@ KRABBE TOGGLE
     z-index: 6;
     transform: rotate(10deg);
     content: url("../img/krabbe-blink.svg");
-}
-
-
-/*--------------------
-MUSLINGE ANIMATION
----------------------*/
-.green-musling {
-    position: absolute;
-    left: 29vw;
-    bottom: 8vh;
-    width: 4vw;
-    z-index: 2;
-}
-
-.green-musling.show-animate .animate.anim-green-musling {
-    transform: rotate(360deg);
 }
 
 
