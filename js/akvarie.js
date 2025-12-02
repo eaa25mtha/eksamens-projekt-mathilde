@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
+
  /*--------------------
  TILBAGE PIL OG SKATTEKISTE
  ---------------------*/   
@@ -102,7 +103,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
   /*-------------
   KRABBE TOGGLE
   ---------------*/
@@ -117,6 +117,23 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 500);
     });
   }
+
+
+
+  /*-------------------
+  MUSLINGE ANIMATION
+  ---------------------*/
+  const greenMusling = document.querySelector(".green-musling");
+
+  if(greenMusling) {
+    greenMusling.addEventListener("click", () => {
+      greenMusling.classList.toggle("anim-green-musling")
+    });
+  }
+
+
+
+
 
 
 

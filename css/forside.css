@@ -19,9 +19,9 @@
 }
 
 
-/*---------
-BAGGRUND 
-----------*/
+/*---------------
+BAGGRUND OG SAND
+-----------------*/
 .baggrund {
     background: linear-gradient(var(--color-bg-top), var(--color-bg-mid), var(--color-bg-bot));
     z-index: 100;
@@ -35,6 +35,8 @@ BAGGRUND
     top: 70vh;
     bottom: 0vh;
 }
+
+
 
 
 /*------------
@@ -57,7 +59,7 @@ SKATTEKISTE KNAPPEN
 
 
 /*------------------------------
-ELEMEMENTER 
+AKVARIEMAND OG TALEBOBBEL
 --------------------------------*/
 .akvariemanden {
     position: absolute;
@@ -76,6 +78,10 @@ ELEMEMENTER
     z-index: 50;
 }
 
+
+/*-----
+TANG
+------*/
 .green-tang-1 {
     position: absolute;
     bottom: 20vh;
@@ -145,6 +151,10 @@ ELEMEMENTER
     width: 8vw;
 }
 
+/*--------
+STEN
+----------*/
+
 .sten-1 {
     position: absolute;
     bottom: 18vh;
@@ -185,6 +195,9 @@ ELEMEMENTER
     width: 16vw;
 }
 
+/*-------------------
+MUSLINGER OG BOBLER
+---------------------*/
 .pink-musling {
     position: absolute;
     bottom: 14vh;
@@ -210,10 +223,18 @@ ELEMEMENTER
     z-index: 7;
 }
 
+.bobler {
+    position: absolute;
+    bottom: 22vh;
+    left: 4vw;
+    z-index: 10;
+    width: 4vw;
+}
 
-/*-------------
-ANIMATIONER
----------------*/
+
+/*--------------------------
+ANIMATIONER FISK OG KRABBE
+----------------------------*/
 .klovnfisk {
     position: absolute;
     top: 10vh;
@@ -321,13 +342,7 @@ ANIMATIONER
     100% {transform: translate(0, 0) scaleX(1);}
 }
 
-.bobler {
-    position: absolute;
-    bottom: 22vh;
-    left: 4vw;
-    z-index: 10;
-    width: 4vw;
-}
+
 
 
 /*-----------------------------------------------------------------
