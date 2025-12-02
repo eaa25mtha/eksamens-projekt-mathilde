@@ -276,7 +276,7 @@ FISKE ANIMATIONER
     bottom: 24vh;
     right: 10vw;
     width: 10vw;
-    animation: pink-fisk 16s linear infinite;
+    animation: pink-fisk 20s linear infinite;
     cursor: pointer;
     z-index: 5;
 }
@@ -287,6 +287,17 @@ FISKE ANIMATIONER
     50% {transform: translateX(-70vw) rotateY(0);}
     99% {transform: translateX(0) rotateY(0);}
     100% {transform: translate(0,0);}
+}
+
+/* toggle i js, fisken nyser*/
+.pink-fisk.nys {
+    position: absolute;
+    bottom: 24vh;
+    right: 10vw;
+    width: 10vw;
+    cursor: pointer;
+    z-index: 5;
+    content: url("../img/pink-fisk-nys.svg");
 }
 
 

@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
   soundLaks.src = "audio/bobler.mp3";
 
   const soundPinkFisk = new Audio();
-  soundPinkFisk.src = "audio/bobler.mp3";
+  soundPinkFisk.src = "audio/nys.mp3";
 
   const soundGreenFisk = new Audio();
   soundGreenFisk.src = "audio/burp.mp3";
@@ -109,6 +109,21 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
+  /*----------------
+  PINK FISK TOGGLE
+  ------------------*/
+  //pink fisk const er hentet tidligere i dokumentet
+  //fisken nyser når der klikkes på den
+
+  if(pinkFisk) {
+    pinkFisk.addEventListener("click", () => {
+      pinkFisk.classList.add("nys");
+
+      setTimeout(() => {
+      pinkFisk.classList.remove("nys");
+      }, 1200);
+    });
+  }
 
 
 
