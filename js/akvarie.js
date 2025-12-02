@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   /*----------------
-  PINK FISK TOGGLE
+  PINK FISK OG GREEN FISK TOGGLE
   ------------------*/
   //pink fisk const er hentet tidligere i dokumentet
   //fisken nyser når der klikkes på den
@@ -124,6 +124,20 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1200);
     });
   }
+
+  //green fisk const er hentet tidligere i dokumentet
+  //fisken bøvser når der klikkes på den
+  if(greenFisk) {
+    greenFisk.addEventListener("click", () => {
+      greenFisk.classList.add("burp");
+
+      setTimeout(() => {
+        greenFisk.classList.remove("burp");
+      }, 900);
+    });
+  }
+
+
 
 
 

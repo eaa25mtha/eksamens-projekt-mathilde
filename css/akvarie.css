@@ -183,31 +183,6 @@ TANG
 }
 
 
-/*-------------
-KRABBE TOGGLE
----------------*/
-.krabbe {
-    position: absolute;
-    right: 42vw;
-    bottom: 14vh;
-    width: 6vw;
-    z-index: 6;
-    transform: rotate(10deg);
-    opacity: 1;
-    cursor: pointer;
-}
-
-/* skal bruges til en toggle i js */
-.krabbe.blink {
-    position: absolute;
-    right: 42vw;
-    bottom: 14vh;
-    width: 6vw;
-    z-index: 6;
-    transform: rotate(10deg);
-    content: url("../img/krabbe-blink.svg");
-}
-
 
 /*-----------
 FISKE ANIMATIONER
@@ -252,6 +227,30 @@ FISKE ANIMATIONER
 }
 
 
+.lilla-fisk {
+    position: absolute;
+    bottom: 52vh;
+    left: 10vw;
+    width: 8vw;
+    animation: lilla-fisk 30s linear infinite;
+    cursor: pointer;
+    z-index: 10;
+}
+
+@keyframes lilla-fisk {
+    0% {transform: translateX(0);}
+    48% {transform: translateX(70vw) rotateY(0);}
+    50% {transform: translateX(70vw) rotateY(180deg);}
+    98% {transform: translateX(0) rotateY(180deg);}
+    100% {transform: translateX(0) rotateY(0);}
+}
+
+
+
+/*-----------------------------------
+FISK MED ANIMAITON OG TOGGLE EFFEKT
+-------------------------------------*/
+
 .green-fisk {
     position: absolute;
     bottom: 12vh;
@@ -269,6 +268,18 @@ FISKE ANIMATIONER
     99% {transform: translateX(0) rotateY(180deg);}
     100% {transform: translateX(0) rotateY(0);}
 }
+
+/* green-fisk toggle i js, fisken bøvser med åben mund*/
+.green-fisk.burp {
+    position: absolute;
+    bottom: 12vh;
+    left: 10vw;
+    width: 10vw;
+    cursor: pointer;
+    z-index: 3;
+    content: url("../img/green-fisk-burp.svg")
+}
+
 
 
 .pink-fisk {
@@ -289,35 +300,43 @@ FISKE ANIMATIONER
     100% {transform: translate(0,0);}
 }
 
-/* toggle i js, fisken nyser*/
+/* pink-fisk toggle i js, fisken nyser*/
 .pink-fisk.nys {
     position: absolute;
     bottom: 24vh;
     right: 10vw;
-    width: 10vw;
+    width: 9.5vw;
     cursor: pointer;
     z-index: 5;
     content: url("../img/pink-fisk-nys.svg");
 }
 
 
-.lilla-fisk {
+/*-------------
+KRABBE TOGGLE
+---------------*/
+.krabbe {
     position: absolute;
-    bottom: 52vh;
-    left: 10vw;
-    width: 8vw;
-    animation: lilla-fisk 30s linear infinite;
+    right: 42vw;
+    bottom: 14vh;
+    width: 6vw;
+    z-index: 6;
+    transform: rotate(10deg);
+    opacity: 1;
     cursor: pointer;
-    z-index: 10;
 }
 
-@keyframes lilla-fisk {
-    0% {transform: translateX(0);}
-    48% {transform: translateX(70vw) rotateY(0);}
-    50% {transform: translateX(70vw) rotateY(180deg);}
-    98% {transform: translateX(0) rotateY(180deg);}
-    100% {transform: translateX(0) rotateY(0);}
+/* skal bruges til en toggle i js */
+.krabbe.blink {
+    position: absolute;
+    right: 42vw;
+    bottom: 14vh;
+    width: 6vw;
+    z-index: 6;
+    transform: rotate(10deg);
+    content: url("../img/krabbe-blink.svg");
 }
+
 
 
 
