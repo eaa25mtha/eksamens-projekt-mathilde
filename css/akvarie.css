@@ -133,15 +133,6 @@ ELEMENTER
     z-index: 6;
 }
 
-.krabbe {
-    position: absolute;
-    right: 42vw;
-    bottom: 16vh;
-    width: 5vw;
-    z-index: 6;
-    transform: rotate(10deg);
-}
-
 .akvarie-tang-1 {
     position: absolute;
     right: 40vw;
@@ -181,6 +172,33 @@ ELEMENTER
     width: 8vw;
     z-index: 2;
 }
+
+
+/*-------------
+KRABBE TOGGLE
+---------------*/
+.krabbe {
+    position: absolute;
+    right: 42vw;
+    bottom: 14vh;
+    width: 6vw;
+    z-index: 6;
+    transform: rotate(10deg);
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* skal bruges til en toggle i js */
+.krabbe.blink {
+    position: absolute;
+    right: 42vw;
+    bottom: 14vh;
+    width: 6vw;
+    z-index: 6;
+    transform: rotate(10deg);
+    content: url("../img/krabbe-blink.svg");
+}
+
 
 
 /*-----------
@@ -260,7 +278,7 @@ ANIMATIONER
     49% { transform: translateX(-70vw) rotateY(180deg);}
     50% {transform: translateX(-70vw) rotateY(0);}
     99% {transform: translateX(0) rotateY(0);}
-    100% {transform: translateX(0) translateY(0);}
+    100% {transform: translate(0,0);}
 }
 
 
@@ -281,6 +299,12 @@ ANIMATIONER
     98% {transform: translateX(0) rotateY(180deg);}
     100% {transform: translateX(0) rotateY(0);}
 }
+
+
+
+
+
+
 
 
 

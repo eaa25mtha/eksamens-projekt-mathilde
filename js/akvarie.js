@@ -101,4 +101,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
+
+
+  /*-------------
+  KRABBE TOGGLE
+  ---------------*/
+  const krabbe = document.querySelector(".krabbe");
+
+  if(krabbe) {                                             //tjekker om krabbe variablen findes
+    krabbe.addEventListener("click", () => {               //event listener på om der klikkes på krabben
+      krabbe.classList.add("blink");                       //css classlist property bruges til at tilføje blinke billedet
+ 
+      setTimeout(() => {                                   //time out funktion der fjerner billedet igen efter 500ms, med classlist remove
+      krabbe.classList.remove("blink");
+      }, 500);
+    });
+  }
+
+
+
 }); //DOM content loaded, slut
