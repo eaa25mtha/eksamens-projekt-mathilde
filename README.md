@@ -18,7 +18,7 @@ HTML:
 CSS:
 
 - animationer
-- reset margin, padding og overflow hidden
+- reset margin, padding, box-sizing og overflow hidden
 - farve variabler
 - px er erstattet af vh eller vw for et mere responsivt design
 - baggrund er nu forskellige elementer i stedet for en samlet png
@@ -33,3 +33,4 @@ JS:
 - audio objekter
 - buttons
 - click events
+- tilføjet dom content loaded funktion

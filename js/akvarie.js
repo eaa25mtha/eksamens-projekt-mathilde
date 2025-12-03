@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const pinkFisk = document.querySelector(".pink-fisk");
   const greenFisk = document.querySelector(".green-fisk");
   const lillaFisk = document.querySelector(".lilla-fisk");
+  const krabbe = document.querySelector(".krabbe");
 
 
  /*-------------------------
@@ -94,10 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   /*-------------
-  KRABBE TOGGLE
+  TOGGLE EFFEKTER 
   ---------------*/
-  const krabbe = document.querySelector(".krabbe");
-
+  //krabbe
   if(krabbe) {                                             //tjekker om krabbe variablen findes
     krabbe.addEventListener("click", () => {               //event listener på om der klikkes på krabben
       krabbe.classList.add("blink");                       //css classlist property bruges til at tilføje blinke billedet
@@ -109,12 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 
-  /*----------------
-  PINK FISK OG GREEN FISK TOGGLE
-  ------------------*/
-  //pink fisk const er hentet tidligere i dokumentet
-  //fisken nyser når der klikkes på den
-
+  //pink fisk 
   if(pinkFisk) {
     pinkFisk.addEventListener("click", () => {
       pinkFisk.classList.add("nys");
@@ -125,8 +120,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  //green fisk const er hentet tidligere i dokumentet
-  //fisken bøvser når der klikkes på den
+  
+ //green fisk 
   if(greenFisk) {
     greenFisk.addEventListener("click", () => {
       greenFisk.classList.add("burp");
@@ -136,10 +131,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 900);
     });
   }
-
-
-
-
 
 
 
