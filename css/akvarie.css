@@ -49,12 +49,11 @@ BAGGRUND OG AKVARIE
 .baggrund {
     background: #F4DE9C;
     z-index: 0;
-    min-height: 120vh;
+    height: 100vh;
 }
 
 .akvarie {
     width: 90vw;
-    max-width: 100vw;
     position: absolute;
     top: 1.5vh;
     left: 5vw;
@@ -69,7 +68,7 @@ STEN
     left: 48vw;
     bottom: 8vh;
     width: 12vw;
-    z-index: 6;
+    z-index: 5;
     transform: rotate(-2deg);
 }
 
@@ -94,7 +93,7 @@ STEN
     left: 20vw;
     bottom: 7.5vh;
     width: 10vw;
-    z-index: 3;
+    z-index: 6;
     transform: rotate(-1deg);
 }
 
@@ -103,7 +102,7 @@ STEN
     left: 8vw;
     bottom: 7.5vh;
     width: 8vw;
-    z-index: 3;
+    z-index: 6;
     transform: rotate(-1deg);
 }
 
@@ -143,15 +142,15 @@ TANG
     right: 40vw;
     bottom: 8vh;
     width: 22vw;
-    z-index: 5;
+    z-index: 1;
 }
 
 .akvarie-tang-2 {
     position: absolute;
     left: 8vw;
     bottom: 8vh;
-    width: 12vw;
-    z-index: 2;
+    width: 14vw;
+    z-index: 5;
 }
 
 .akvarie-tang-3 {
@@ -172,10 +171,18 @@ TANG
 
 .akvarie-tang-5 {
     position: absolute;
-    left: 22vw;
+    left: 24vw;
     bottom: 8vh;
-    width: 8vw;
+    width: 10vw;
     z-index: 2;
+}
+
+.akvarie-tang-6 {
+    position: absolute;
+    right: 24vw;
+    bottom: 8vh;
+    width: 7vw;
+    z-index: 1;
 }
 
 
@@ -334,14 +341,80 @@ KRABBE TOGGLE
 }
 
 
-
-
-
-
-
-
-
-
 /*------------------------------------
 MEDIA BREAKPOINTS RESPONSIVE DESIGN
 -------------------------------------*/
+@media (max-width: 1366px) {
+
+    .akvarie {
+        position: absolute;
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .skattekiste-btn {
+        position: absolute;
+        bottom: 19vh;
+    }
+
+    .krabbe {
+        position: absolute;
+        bottom: 27vh;
+    }
+
+    .pink-fisk {
+        position: absolute;
+        bottom: 30vh;
+    }
+
+    .green-fisk {
+        position: absolute;
+        bottom: 25vh;
+    }
+
+    .pil-btn {
+        position: absolute;
+        top: 24vh;
+    }
+
+
+    /* tangen */
+    .akvarie-tang-1 {position: absolute; bottom: 23vh;}
+
+    .akvarie-tang-2 {position: absolute; bottom: 23vh;}
+
+    .akvarie-tang-3 {position: absolute; bottom: 23vh;}
+
+    .akvarie-tang-4 {position: absolute; bottom: 23vh;}
+
+    .akvarie-tang-5 {position: absolute; bottom: 23vh;}
+
+    .akvarie-tang-6 {position: absolute;bottom: 23vh;}
+
+
+    /* stenene */
+    .sten-1 {position: absolute; bottom: 23vh;}
+
+    .sten-2 {position: absolute; bottom: 23vh;}
+
+    .sten-3 {position: absolute; bottom: 23vh;}
+
+    .sten-4 {position: absolute; bottom: 23vh;}
+
+    .sten-5 {position: absolute; bottom: 23vh;}
+
+
+    /* muslingerne */
+    .pink-musling {position: absolute; bottom: 23vh;}
+
+    .green-musling {position: absolute; bottom: 23vh;}
+
+    .gul-musling {position: absolute; bottom: 23vh;}
+
+
+
+
+    
+
+    
+}
