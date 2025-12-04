@@ -5,15 +5,13 @@ DATA OBJEKT, ARRAY TIL FISKENE
 const fiskInfo = [
   {className: "klovnfisk", farve: "orange", alder: 5 },
 
-  {className: "mini-klovnfisk", farve: "orange", alder: 1 },
-
   {className: "laks", farve: "lyserød", alder: 2 },
 
-  {className: "blue-fisk", farve: "blå", alder: 1 },
+  {className: "green-fisk", farve: "blå", alder: 1 },
 
   {className: "lilla-fisk", farve: "lilla", alder: 7 },
 
-  {className: "stribet-fisk", farve: "blå og lyserød", alder: "10"},
+  {className: "pink-fisk", farve: "pink", alder: "10"},
 ];
 
 
