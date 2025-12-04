@@ -35,10 +35,9 @@ BAGGRUND OG SAND
 
 
 
-
-/*------------
-SKATTEKISTE KNAPPEN
---------------*/
+/*------------------------------
+SKATTEKISTE KNAP OG GLØD ANIMATION
+-------------------------------*/
 .skattekiste-btn {
     position: absolute;
     width: 30vw;
@@ -52,7 +51,24 @@ SKATTEKISTE KNAPPEN
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 10;
+
+    /* glød effekt, box-shadow virker ikke på svg'er så derfor er der brugt filter: drop-shadow */
+    /* ingen forskydning på x og y aksen, radius på 20px og varm gylden farve*/
+    filter: drop-shadow(0 0 20px #ffdd55) drop-shadow(0 0 50px #ffdd55);  
+    animation: skattekiste-btn 1s infinite alternate;
 }
+
+/* pulserende glød effekt */
+@keyframes skattekiste-btn {
+    from {
+        filter: drop-shadow(0 0 10px #ffdd55);
+    }
+
+    to {
+        filter: drop-shadow(0 0 40px #ffdd55);
+    }
+}
+
 
 
 /*------------------------------

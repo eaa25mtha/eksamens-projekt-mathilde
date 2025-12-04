@@ -24,6 +24,7 @@ CSS:
 - baggrund er nu forskellige elementer i stedet for en samlet png
 - responsive design med breakpoints
 - alle elementer er blevet erstattet og har fået ensrettet design udtrykket
+- glød effekt på skattekisten
 
 JS:
 

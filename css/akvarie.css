@@ -40,7 +40,21 @@ TILBAGE PIL OG SKATTEKISTE KNAP
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 10;
+    filter: drop-shadow(0 0 10px #ffdd55) drop-shadow(0 0 30px #ffdd55);
+    animation: skattekiste-btn 1s infinite alternate;
 }
+
+/* pulserende glød effekt */
+@keyframes skattekiste-btn {
+    from {
+        filter: drop-shadow(0 0 10px #ffdd55);
+    }
+
+    to {
+        filter: drop-shadow(0 0 30px #ffdd55);
+    }
+}
+
 
 
 /*-------------------
