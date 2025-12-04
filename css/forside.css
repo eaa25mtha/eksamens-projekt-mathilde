@@ -1,12 +1,5 @@
 
 
-/* farve variabler i root*/
-:root {
-    --color-bg-top: #9adfe9;
-    --color-bg-mid: #71b5de;
-    --color-bg-bot: #4a83be;
-}
-
 /* reset */
 * {
     margin: 0;
@@ -20,7 +13,7 @@
 BAGGRUND OG SAND
 -----------------*/
 .baggrund {
-    background: linear-gradient(var(--color-bg-top), var(--color-bg-mid), var(--color-bg-bot));
+    background: linear-gradient(#9adfe9, #71b5de, #4a83be);
     z-index: 100;
     width: 100vw;
     height: 100vh;
@@ -35,38 +28,41 @@ BAGGRUND OG SAND
 
 
 
-/*------------------------------
-SKATTEKISTE KNAP OG GLØD ANIMATION
--------------------------------*/
+/*----------------------------------------------
+SKATTEKISTE KNAP, GLØD ANIMATION OG ÅBNE EFFEKT
+------------------------------------------------*/
 .skattekiste-btn {
     position: absolute;
-    width: 30vw;
-    height: 35vh;
+    width: 28vw;
     bottom: 16vh;
-    left: 50vw;
-    background-image: url("../img/skattekiste.svg");
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: contain;
+    left: 52vw;
     z-index: 10;
+    cursor: pointer;
 
     /* glød effekt, box-shadow virker ikke på svg'er så derfor er der brugt filter: drop-shadow */
-    /* ingen forskydning på x og y aksen, radius på 20px og varm gylden farve*/
-    filter: drop-shadow(0 0 20px #ffdd55) drop-shadow(0 0 50px #ffdd55);  
-    animation: skattekiste-btn 1s infinite alternate;
+    filter: drop-shadow(0 0 20px #ffdd55) drop-shadow(0 0 50px #ffdd55);   
+    animation: skattekiste-btn 1s infinite alternate;                          
 }
 
 /* pulserende glød effekt */
 @keyframes skattekiste-btn {
     from {
-        filter: drop-shadow(0 0 10px #ffdd55);
+        /* ingen forskydning på x og y aksen, radius på 20px og varm gylden farve*/
+        filter: drop-shadow(0 0 10px #ffdd55);  
     }
 
     to {
         filter: drop-shadow(0 0 40px #ffdd55);
     }
+}
+
+.skattekiste-btn.open {
+    position: absolute;
+    width: 28vw;
+    bottom: 16vh;
+    left: 52vw;
+    z-index: 10;
+    content: url("../img/skattekiste-open.svg");
 }
 
 

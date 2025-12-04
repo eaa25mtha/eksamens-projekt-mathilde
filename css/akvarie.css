@@ -8,10 +8,9 @@
 }
 
 
-
-/*------------------------------
-TILBAGE PIL OG SKATTEKISTE KNAP
---------------------------------*/
+/*-------------
+TILBAGE PIL 
+---------------*/
 .pil-btn {
     position: absolute;
     width: 10vw;
@@ -24,22 +23,21 @@ TILBAGE PIL OG SKATTEKISTE KNAP
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: 10;
+    z-index: 12;
 }
 
+
+
+/*---------------------------------------
+SKATTEKISTE KNAP, GLØD EFFEKT OG TOGGLE 
+-----------------------------------------*/
 .skattekiste-btn {
     position: absolute;
     width: 12vw;
-    height: 16vh;
     bottom: 8vh;
     left: 35vw;
-    background-image: url("../img/skattekiste.svg");
-    border: none;
+    z-index: 12;
     cursor: pointer;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 10;
     filter: drop-shadow(0 0 10px #ffdd55) drop-shadow(0 0 30px #ffdd55);
     animation: skattekiste-btn 1s infinite alternate;
 }
@@ -54,6 +52,16 @@ TILBAGE PIL OG SKATTEKISTE KNAP
         filter: drop-shadow(0 0 30px #ffdd55);
     }
 }
+
+.skattekiste-btn.open {
+    position: absolute;
+    width: 12vw;
+    bottom: 8vh;
+    left: 35vw;
+    z-index: 12;
+    content: url("../img/skattekiste-open.svg");
+}
+
 
 
 
@@ -91,7 +99,7 @@ STEN
     right: 10vw;
     bottom: 8vh;
     width: 12vw;
-    z-index: 3;
+    z-index: 8;
 }
 
 .sten-3 {
@@ -128,7 +136,7 @@ MUSLINGER
     right: 20vw;
     bottom: 8vh;
     width: 3vw;
-    z-index: 4;
+    z-index: 10;
 }
 
 
@@ -156,7 +164,7 @@ TANG
     right: 40vw;
     bottom: 8vh;
     width: 22vw;
-    z-index: 1;
+    z-index: 4;
 }
 
 .akvarie-tang-2 {
@@ -172,7 +180,7 @@ TANG
     right: 10vw;
     bottom: 8vh;
     width: 10vw;
-    z-index: 2;
+    z-index: 6;
 }
 
 .akvarie-tang-4 {
@@ -265,7 +273,7 @@ FISKE ANIMATIONER
 
 
 /*-----------------------------------
-FISK MED ANIMAITON OG TOGGLE EFFEKT
+FISK MED ANIMATION OG TOGGLE EFFEKT
 -------------------------------------*/
 
 .green-fisk {
@@ -330,7 +338,7 @@ FISK MED ANIMAITON OG TOGGLE EFFEKT
 
 
 /*-------------
-KRABBE TOGGLE
+KRABBE OG TOGGLE
 ---------------*/
 .krabbe {
     position: absolute;

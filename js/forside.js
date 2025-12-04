@@ -14,8 +14,18 @@ document.addEventListener("DOMContentLoaded", () => {
  SKATTEKISTE BUTTON SOM FØRER TIL AKVARIET
  ------------------------------------------*/
   skattekisteBtn.addEventListener("click", () => {
-    window.location.href = "akvarie.html";                   //window.location.href bruges til at skifte siden
+    setTimeout(() => {
+      window.location.href = "akvarie.html"        //window.location.href bruges til at skifte siden
+    }, 1000);                
   });
+
+
+  //åben skattekiste effekt
+  if(skattekisteBtn) {
+    skattekisteBtn.addEventListener("click", () => {
+      skattekisteBtn.classList.add("open");
+    });
+  }
 
 
  /*-------------------------------------------

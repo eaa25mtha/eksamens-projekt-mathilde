@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const krabbe = document.querySelector(".krabbe");
 
 
+
  /*-------------------------
  AUDIO OBJEKTER TIL FISKENE
  ---------------------------*/
@@ -88,7 +89,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     skattekisteBtn.addEventListener("click", () => {
-      window.location.href = "index.html"
+      setTimeout(() => {
+        window.location.href = "index.html"
+      }, 1000);
     });
   }
 
@@ -120,7 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  
+
  //green fisk 
   if(greenFisk) {
     greenFisk.addEventListener("click", () => {
@@ -132,6 +135,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  //skattekisten 
+  if(skattekisteBtn) {
+    skattekisteBtn.addEventListener("click", () => {
+      skattekisteBtn.classList.add("open");
+    });
+  }
+  
 
 
 
