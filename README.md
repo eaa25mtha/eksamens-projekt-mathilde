@@ -30,7 +30,7 @@ JS:
 
 - tooltip og data array slettet
 - const variabler tilføjet
-- toggle effekter
+- toggle effekter på to fisk, krabben og skattekisterne
 - audio objekter
 - buttons
 - click events
