@@ -29,7 +29,7 @@ CSS:
 - størrelser og hastighed på fiskene er justeret til målgruppen
 - der er tilføjet overordnet reset på margin, padding, box-sizing og overflow
 - alle relevante px værdier er erstattet af vh eller vw for et mere responsivt design
-- baggrund består nu af forskellige elementer i stedet for en samlet png så der kan laves mere dybde med styling
+- baggrund består nu af forskellige elementer i stedet for en samlet png så der kan laves mere dybde med styling og z-index
 - der er lavet responsive design med breakpoints i begge css filer
 - der er lavet en glød effekt på skattekisten
 
@@ -41,6 +41,5 @@ JS:
 - der er lavet timeout funktioner på skattekisterne og de fisk der har toggle effekter
 - der er tilføjet nye audio objekter og justeret i de gamle
 - der er tilføjet event listeners på alle fisk, akvariemanden, skattekisterne og krabben
-- der er tilføjet dom content load funktion for at sikre at alt contetn loades inden funktionerne køres
-- der er justeret z-index på fisk, sten og tang elementer for at skabe dybde i spillet
-- der er blevet tilføjet if funktioner på alle elementer for at sikre at de findes inden funktioenrne køres
+- der er tilføjet dom content loaded funktion for at sikre at alt content loades inden funktionerne køres
+- der er blevet tilføjet if statements på alle elementer for at sikre at de findes, inden funktionerne køres
