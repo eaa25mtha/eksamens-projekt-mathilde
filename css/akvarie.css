@@ -366,7 +366,7 @@ KRABBE OG TOGGLE
 /*------------------------------------
 MEDIA BREAKPOINT RESPONSIVE DESIGN
 -------------------------------------*/
-@media (min-height: 960px) {
+@media (max-width: 1366px) {
 
     .akvarie {
         position: absolute;
@@ -403,15 +403,15 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
     /* tangen */
     .akvarie-tang-1 {position: absolute; bottom: 30vh;}
 
-    .akvarie-tang-2 {position: absolute; bottom: 23vh;}
+    .akvarie-tang-2 {position: absolute; bottom: 30vh;}
 
-    .akvarie-tang-3 {position: absolute; bottom: 23vh;}
+    .akvarie-tang-3 {position: absolute; bottom: 30vh;}
 
-    .akvarie-tang-4 {position: absolute; bottom: 23vh;}
+    .akvarie-tang-4 {position: absolute; bottom: 30vh;}
 
-    .akvarie-tang-5 {position: absolute; bottom: 23vh;}
+    .akvarie-tang-5 {position: absolute; bottom: 30vh;}
 
-    .akvarie-tang-6 {position: absolute;bottom: 23vh;}
+    .akvarie-tang-6 {position: absolute;bottom: 30vh;}
 
 
     /* stenene */
