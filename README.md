@@ -19,6 +19,7 @@ HTML:
 - alle png filer er konverteret til svg for et mere fleksibelt design når der skaleres
 - der er lavet korrekte stier så siden kan deployes til github pages uden komplikationer
 - sproget på siderne er ændret til dansk
+- tilføjet favicon på begge html filer
 
 CSS:
 
