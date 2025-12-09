@@ -370,13 +370,13 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
 
     .akvarie {
         position: absolute;
-        width: 90vw;
-        height: 90vh;
+        width: 100vw;
+        height: 100vh;
     }
 
     .skattekiste-btn {
         position: absolute;
-        bottom: 19vh;
+        bottom: 10vh;
     }
 
     .krabbe {
@@ -403,76 +403,76 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
     /* tangen */
     .akvarie-tang-1 {
         position: absolute; 
-        bottom: 30vh;
+        bottom: 10vh;
     }
 
     .akvarie-tang-2 {
         position: absolute; 
-        bottom: 30vh;
+        bottom: 10vh;
     }
 
     .akvarie-tang-3 {
         position: absolute; 
-        bottom: 30vh;
+        bottom: 10vh;
     }
 
     .akvarie-tang-4 {
         position: absolute; 
-        bottom: 30vh;
+        bottom: 10vh;
     }
 
     .akvarie-tang-5 {
         position: absolute; 
-        bottom: 30vh;
+        bottom: 10vh;
     }
 
     .akvarie-tang-6 {
         position: absolute;
-        bottom: 30vh;
+        bottom: 10vh;
     }
 
 
     /* stenene */
     .sten-1 {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
     .sten-2 {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
     .sten-3 {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
     .sten-4 {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
     .sten-5 {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
 
     /* muslingerne */
     .pink-musling {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
     .green-musling {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
     .gul-musling {
         position: absolute; 
-        bottom: 23vh;
+        bottom: 10vh;
     }
 
 
