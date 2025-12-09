@@ -357,7 +357,7 @@ ANIMATIONER FISK OG KRABBE
 /*-----------------------------------------------------------------
 MEDIA BREAKPOINT RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
 ------------------------------------------------------------------*/
-@media (min-height: 960px) {
+@media (max-width: 1366px) {
 
     .skattekiste-btn {
         position: absolute; 
