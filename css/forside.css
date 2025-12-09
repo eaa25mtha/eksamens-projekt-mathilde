@@ -362,7 +362,13 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
     .skattekiste-btn {
         position: absolute; 
         width: 25vw;
-        bottom: 10vh;
+        bottom: 12vh;
+    }
+
+    .skattekiste-btn.open {
+        position: absolute;
+        width: 25vw;
+        bottom: 12vh;
     }
 
     .talebobbel {
@@ -372,7 +378,7 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
 
     .green-tang-3 {
         position: absolute;
-        bottom: 24vh;
+        bottom: 18vh;
     }
 
     .sten-4 {
