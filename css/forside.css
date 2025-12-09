@@ -7,7 +7,7 @@
     box-sizing: border-box;
     overflow: hidden;
 }
-
+ 
 
 /*---------------
 BAGGRUND OG SAND
@@ -362,7 +362,7 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
     .skattekiste-btn {
         position: absolute; 
         width: 25vw;
-        bottom: 5vh;
+        bottom: 10vh;
     }
 
     .talebobbel {
@@ -373,6 +373,11 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN TIL IPAD AIR 13 INCH 1366x1024
     .green-tang-3 {
         position: absolute;
         bottom: 24vh;
+    }
+
+    .sten-4 {
+        position: absolute;
+        bottom: 15vh;
     }
 }
 
