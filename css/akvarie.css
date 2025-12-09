@@ -386,7 +386,12 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
 
     .krabbe {
         position: absolute;
-        bottom: 16vh;
+        bottom: 18vh;
+    }
+
+    .krabbe.blink {
+        position: absolute;
+        bottom: 18vh;
     }
 
     .pink-fisk {
@@ -394,9 +399,19 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
         bottom: 30vh;
     }
 
+    .pink-fisk.nys {
+        position: absolute;
+        bottom: 30vh;
+    }
+
     .green-fisk {
         position: absolute;
-        bottom: 22vh;
+        bottom: 20vh;
+    }
+
+    .green-fisk.burp {
+        position: absolute;
+        bottom: 20vh;
     }
 
     .pil-btn {

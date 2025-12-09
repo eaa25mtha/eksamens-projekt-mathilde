@@ -33,7 +33,7 @@ SKATTEKISTE KNAP, GLØD ANIMATION OG ÅBNE EFFEKT
 ------------------------------------------------*/
 .skattekiste-btn {
     position: absolute;
-    width: 28vw;
+    width: 26vw;
     bottom: 16vh;
     left: 52vw;
     z-index: 10;
@@ -58,7 +58,7 @@ SKATTEKISTE KNAP, GLØD ANIMATION OG ÅBNE EFFEKT
 
 .skattekiste-btn.open {
     position: absolute;
-    width: 28vw;
+    width: 26vw;
     bottom: 16vh;
     left: 52vw;
     z-index: 10;
