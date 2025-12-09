@@ -401,37 +401,79 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
 
 
     /* tangen */
-    .akvarie-tang-1 {position: absolute; bottom: 30vh;}
+    .akvarie-tang-1 {
+        position: absolute; 
+        bottom: 30vh;
+    }
 
-    .akvarie-tang-2 {position: absolute; bottom: 30vh;}
+    .akvarie-tang-2 {
+        position: absolute; 
+        bottom: 30vh;
+    }
 
-    .akvarie-tang-3 {position: absolute; bottom: 30vh;}
+    .akvarie-tang-3 {
+        position: absolute; 
+        bottom: 30vh;
+    }
 
-    .akvarie-tang-4 {position: absolute; bottom: 30vh;}
+    .akvarie-tang-4 {
+        position: absolute; 
+        bottom: 30vh;
+    }
 
-    .akvarie-tang-5 {position: absolute; bottom: 30vh;}
+    .akvarie-tang-5 {
+        position: absolute; 
+        bottom: 30vh;
+    }
 
-    .akvarie-tang-6 {position: absolute;bottom: 30vh;}
+    .akvarie-tang-6 {
+        position: absolute;
+        bottom: 30vh;
+    }
 
 
     /* stenene */
-    .sten-1 {position: absolute; bottom: 23vh;}
+    .sten-1 {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
-    .sten-2 {position: absolute; bottom: 23vh;}
+    .sten-2 {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
-    .sten-3 {position: absolute; bottom: 23vh;}
+    .sten-3 {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
-    .sten-4 {position: absolute; bottom: 23vh;}
+    .sten-4 {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
-    .sten-5 {position: absolute; bottom: 23vh;}
+    .sten-5 {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
 
     /* muslingerne */
-    .pink-musling {position: absolute; bottom: 23vh;}
+    .pink-musling {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
-    .green-musling {position: absolute; bottom: 23vh;}
+    .green-musling {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
-    .gul-musling {position: absolute; bottom: 23vh;}
+    .gul-musling {
+        position: absolute; 
+        bottom: 23vh;
+    }
 
 
 
