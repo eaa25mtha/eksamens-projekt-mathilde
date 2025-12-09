@@ -366,7 +366,7 @@ KRABBE OG TOGGLE
 /*------------------------------------
 MEDIA BREAKPOINT RESPONSIVE DESIGN
 -------------------------------------*/
-@media (max-width: 1366px) {
+/*@media (max-width: 1366px) {
 
     .akvarie {
         position: absolute;
@@ -401,7 +401,7 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
 
 
     /* tangen */
-    .akvarie-tang-1 {position: absolute; bottom: 23vh;}
+    /*.akvarie-tang-1 {position: absolute; bottom: 23vh;}
 
     .akvarie-tang-2 {position: absolute; bottom: 23vh;}
 
@@ -415,7 +415,7 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
 
 
     /* stenene */
-    .sten-1 {position: absolute; bottom: 23vh;}
+    /*.sten-1 {position: absolute; bottom: 23vh;}
 
     .sten-2 {position: absolute; bottom: 23vh;}
 
@@ -427,7 +427,7 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
 
 
     /* muslingerne */
-    .pink-musling {position: absolute; bottom: 23vh;}
+    /*.pink-musling {position: absolute; bottom: 23vh;}
 
     .green-musling {position: absolute; bottom: 23vh;}
 
