@@ -7,6 +7,11 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+
+/* root */
+:root {
+    --glow: #ffdd55; /* farve variabel til skattekisten */
+}
  
 
 /*---------------
@@ -40,7 +45,7 @@ SKATTEKISTE KNAP, GLØD ANIMATION OG ÅBNE EFFEKT
     cursor: pointer;
 
     /* glød effekt, box-shadow virker ikke på svg'er så derfor er der brugt filter: drop-shadow */
-    filter: drop-shadow(0 0 20px #ffdd55) drop-shadow(0 0 50px #ffdd55);   
+    filter: drop-shadow(0 0 20px var(--glow)) drop-shadow(0 0 50px var(--glow));   
     animation: skattekiste-btn 1s infinite alternate;                          
 }
 
@@ -48,11 +53,11 @@ SKATTEKISTE KNAP, GLØD ANIMATION OG ÅBNE EFFEKT
 @keyframes skattekiste-btn {
     from {
         /* ingen forskydning på x og y aksen, radius på 20px og varm gylden farve*/
-        filter: drop-shadow(0 0 10px #ffdd55);  
+        filter: drop-shadow(0 0 10px var(--glow));  
     }
 
     to {
-        filter: drop-shadow(0 0 40px #ffdd55);
+        filter: drop-shadow(0 0 40px var(--glow));
     }
 }
 

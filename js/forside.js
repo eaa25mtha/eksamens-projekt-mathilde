@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
  const akvariemanden = document.querySelector(".akvariemanden");
  const skattekisteBtn = document.querySelector(".skattekiste-btn");
 
-
+ 
  /*----------------------------------------- 
  SKATTEKISTE BUTTON SOM FØRER TIL AKVARIET
  ------------------------------------------*/

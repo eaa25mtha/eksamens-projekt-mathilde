@@ -7,6 +7,11 @@
     overflow: hidden;
 }
 
+/* root */
+:root {
+    --glow: #ffdd55; /* farve variabel til skattekisten */
+}
+
 
 /*-------------
 TILBAGE PIL 
@@ -38,18 +43,18 @@ SKATTEKISTE KNAP, GLØD EFFEKT OG TOGGLE
     left: 35vw;
     z-index: 12;
     cursor: pointer;
-    filter: drop-shadow(0 0 10px #ffdd55) drop-shadow(0 0 30px #ffdd55);
+    filter: drop-shadow(0 0 10px var(--glow)) drop-shadow(0 0 30px var(--glow));
     animation: skattekiste-btn 1s infinite alternate;
 }
 
 /* pulserende glød effekt */
 @keyframes skattekiste-btn {
     from {
-        filter: drop-shadow(0 0 10px #ffdd55);
+        filter: drop-shadow(0 0 10px var(--glow));
     }
 
     to {
-        filter: drop-shadow(0 0 30px #ffdd55);
+        filter: drop-shadow(0 0 30px var(--glow));
     }
 }
 
