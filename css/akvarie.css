@@ -396,7 +396,7 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
 
     .green-fisk {
         position: absolute;
-        bottom: 25vh;
+        bottom: 22vh;
     }
 
     .pil-btn {
@@ -408,76 +408,76 @@ MEDIA BREAKPOINT RESPONSIVE DESIGN
     /* tangen */
     .akvarie-tang-1 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .akvarie-tang-2 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .akvarie-tang-3 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .akvarie-tang-4 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .akvarie-tang-5 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .akvarie-tang-6 {
         position: absolute;
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
 
     /* stenene */
     .sten-1 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .sten-2 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .sten-3 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .sten-4 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .sten-5 {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
 
     /* muslingerne */
     .pink-musling {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .green-musling {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
 
     .gul-musling {
         position: absolute; 
-        bottom: 12vh;
+        bottom: 12.5vh;
     }
     
 }
