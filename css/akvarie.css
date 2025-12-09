@@ -366,7 +366,7 @@ KRABBE OG TOGGLE
 /*------------------------------------
 MEDIA BREAKPOINT RESPONSIVE DESIGN
 -------------------------------------*/
-@media (min-width: 1366px) {
+@media (max-width: 1366px) {
 
     .akvarie {
         position: absolute;
